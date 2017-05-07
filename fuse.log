@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/SingleCycle_S1617_14100251_isim_beh.exe -prj C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/SingleCycle_S1617_14100251_beh.prj work.SingleCycle_S1617_14100251 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/SignExtend_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/ShiftLeft2_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/RegisterFile_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/PC_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MUXRegDst_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/MUX2to1_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/InstructionMemory_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/DataMemory_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/ControlUnit_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/ALU_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/ALUControl_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/Adder_S1617_14100251.vhd" into library work
+Parsing VHDL file "C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/SingleCycle_S1617_14100251.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 1780848 KB
+Fuse CPU Usage: 1080 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity PC_S1617_14100251 [pc_s1617_14100251_default]
+Compiling architecture behavioral of entity Adder_S1617_14100251 [adder_s1617_14100251_default]
+Compiling architecture behavioral of entity InstructionMemory_S1617_14100251 [instructionmemory_s1617_14100251...]
+Compiling architecture behavioral of entity ControlUnit_S1617_14100251 [controlunit_s1617_14100251_defau...]
+Compiling architecture behavioral of entity MUXRegDst_S1617_14100251 [muxregdst_s1617_14100251_default]
+Compiling architecture behavioral of entity RegisterFile_S1617_14100251 [registerfile_s1617_14100251_defa...]
+Compiling architecture behavioral of entity SignExtend_S1617_14100251 [signextend_s1617_14100251_defaul...]
+Compiling architecture behavioral of entity ShiftLeft2_S1617_14100251 [shiftleft2_s1617_14100251_defaul...]
+Compiling architecture behavioral of entity ALUControl_S1617_14100251 [alucontrol_s1617_14100251_defaul...]
+Compiling architecture behavioral of entity MUX2to1_S1617_14100251 [mux2to1_s1617_14100251_default]
+Compiling architecture behavioral of entity ALU_S1617_14100251 [alu_s1617_14100251_default]
+Compiling architecture behavioral of entity DataMemory_S1617_14100251 [datamemory_s1617_14100251_defaul...]
+Compiling architecture behavioral of entity singlecycle_s1617_14100251
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable C:/users/crossover/Desktop/My Mac Desktop/CC311_S1617_14100251/SingleCycle_S1617_14100251_isim_beh.exe
+Fuse Memory Usage: 1783780 KB
+Fuse CPU Usage: 1330 ms

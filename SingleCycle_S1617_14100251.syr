@@ -1,0 +1,343 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: SingleCycle_S1617_14100251.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SingleCycle_S1617_14100251.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SingleCycle_S1617_14100251"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : SingleCycle_S1617_14100251
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SignExtend_S1617_14100251.vhd" into library work
+Parsing entity <SignExtend_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <signextend_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\ShiftLeft2_S1617_14100251.vhd" into library work
+Parsing entity <ShiftLeft2_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <shiftleft2_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" into library work
+Parsing entity <RegisterFile_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <registerfile_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\PC_S1617_14100251.vhd" into library work
+Parsing entity <PC_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <pc_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\MUXRegDst_S1617_14100251.vhd" into library work
+Parsing entity <MUXRegDst_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <muxregdst_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\MUX2to1_S1617_14100251.vhd" into library work
+Parsing entity <MUX2to1_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <mux2to1_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\InstructionMemory_S1617_14100251.vhd" into library work
+Parsing entity <InstructionMemory_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <instructionmemory_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" into library work
+Parsing entity <DataMemory_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <datamemory_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\ControlUnit_S1617_14100251.vhd" into library work
+Parsing entity <ControlUnit_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <controlunit_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\ALU_S1617_14100251.vhd" into library work
+Parsing entity <ALU_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <alu_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\ALUControl_S1617_14100251.vhd" into library work
+Parsing entity <ALUControl_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <alucontrol_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\Adder_S1617_14100251.vhd" into library work
+Parsing entity <Adder_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <adder_s1617_14100251>.
+Parsing VHDL file "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" into library work
+Parsing entity <SingleCycle_S1617_14100251>.
+Parsing architecture <Behavioral> of entity <singlecycle_s1617_14100251>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <SingleCycle_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PC_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Adder_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <InstructionMemory_S1617_14100251> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:634 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\InstructionMemory_S1617_14100251.vhd" Line 42: Net <mem[56][7]> does not have a driver.
+
+Elaborating entity <ControlUnit_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUXRegDst_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RegisterFile_S1617_14100251> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" Line 59: rs should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" Line 62: reg should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" Line 65: rt should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" Line 68: reg should be on the sensitivity list of the process
+
+Elaborating entity <SignExtend_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ShiftLeft2_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALUControl_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX2to1_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU_S1617_14100251> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DataMemory_S1617_14100251> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" Line 54: mem should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" Line 55: mem should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" Line 56: mem should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" Line 57: mem should be on the sensitivity list of the process
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 180. All outputs of instance <Inst_PC_S1617_14100251> of block <PC_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 186. All outputs of instance <Inst_Adder1_S1617_14100251> of block <Adder_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 192. All outputs of instance <Inst_InstructionMemory_S1617_14100251> of block <InstructionMemory_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 197. All outputs of instance <Inst_ControlUnit_S1617_14100251> of block <ControlUnit_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 209. All outputs of instance <Inst_MUXRegDst_S1617_14100251> of block <MUXRegDst_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 216. All outputs of instance <Inst_RegisterFile_S1617_14100251> of block <RegisterFile_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 226. All outputs of instance <Inst_SignExtend_S1617_14100251> of block <SignExtend_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 231. All outputs of instance <Inst_ShiftLeft2_S1617_14100251> of block <ShiftLeft2_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 236. All outputs of instance <Inst_Adder2_S1617_14100251> of block <Adder_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 242. All outputs of instance <Inst_ALUControl_S1617_14100251> of block <ALUControl_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 248. All outputs of instance <ALUMUX_S1617_14100251> of block <MUX2to1_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 255. All outputs of instance <Inst_ALU_S1617_14100251> of block <ALU_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 265. All outputs of instance <PCMUX_S1617_14100251> of block <MUX2to1_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 272. All outputs of instance <Inst_DataMemory_S1617_14100251> of block <DataMemory_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd" line 280. All outputs of instance <MemoryMUX_S1617_14100251> of block <MUX2to1_S1617_14100251> are unconnected in block <SingleCycle_S1617_14100251>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <SingleCycle_S1617_14100251>.
+    Related source file is "C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd".
+    Summary:
+	no macro.
+Unit <SingleCycle_S1617_14100251> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SingleCycle_S1617_14100251> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SingleCycle_S1617_14100251, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : SingleCycle_S1617_14100251.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           1
+ Number of bonded IOBs:                   0  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.52 secs
+ 
+--> 
+
+Total memory usage is 64 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   24 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

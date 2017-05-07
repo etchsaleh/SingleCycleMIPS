@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\InstructionMemory_S1617_14100251.vhd" Line 42: Net &lt;<arg fmt="%s" index="1">mem[56][7]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" Line 59: <arg fmt="%s" index="1">rs</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" Line 62: <arg fmt="%s" index="1">reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" Line 65: <arg fmt="%s" index="1">rt</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\RegisterFile_S1617_14100251.vhd" Line 68: <arg fmt="%s" index="1">reg</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" Line 54: <arg fmt="%s" index="1">mem</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" Line 55: <arg fmt="%s" index="1">mem</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" Line 56: <arg fmt="%s" index="1">mem</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\DataMemory_S1617_14100251.vhd" Line 57: <arg fmt="%s" index="1">mem</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">180</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_PC_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">PC_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">186</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_Adder1_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">Adder_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">192</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_InstructionMemory_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">InstructionMemory_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">197</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_ControlUnit_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">ControlUnit_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">209</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_MUXRegDst_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUXRegDst_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">216</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_RegisterFile_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">RegisterFile_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">226</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_SignExtend_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">SignExtend_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">231</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_ShiftLeft2_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">ShiftLeft2_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">236</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_Adder2_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">Adder_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">242</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_ALUControl_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALUControl_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">248</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALUMUX_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX2to1_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">255</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_ALU_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">265</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PCMUX_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX2to1_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">272</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Inst_DataMemory_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">DataMemory_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\users\crossover\Desktop\My Mac Desktop\CC311_S1617_14100251\SingleCycle_S1617_14100251.vhd</arg>&quot; line <arg fmt="%d" index="2">280</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MemoryMUX_S1617_14100251</arg>&gt; of block &lt;<arg fmt="%s" index="4">MUX2to1_S1617_14100251</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycle_S1617_14100251</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+</messages>
+

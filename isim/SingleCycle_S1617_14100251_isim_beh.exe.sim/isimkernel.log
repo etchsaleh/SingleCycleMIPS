@@ -1,0 +1,28 @@
+Command line:
+   SingleCycle_S1617_14100251_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54678
+
+Sun May 07 12:28:49 2017
+
+
+ Elaboration Time: 0.12 sec
+
+ Current Memory Usage: 0.065536 Meg
+
+ Total Signals          : 91
+ Total Nets             : 2518
+ Total Signal Drivers   : 88
+ Total Blocks           : 19
+ Total Primitive Blocks : 18
+ Total Processes        : 78
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 2896
+
+ Total Simulation Time: 0.34 sec
+
+ Current Memory Usage: 0.065536 Meg
+
+Sun May 07 13:42:43 2017
+
