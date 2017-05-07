@@ -1,0 +1,2 @@
+cat .gitattributes
+*.c linguist-language=VHDL
